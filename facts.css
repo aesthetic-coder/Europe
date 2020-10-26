@@ -1,0 +1,278 @@
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: #ffc922;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+}
+
+
+
+#myBtn:hover {
+    background-color: #555;
+}
+
+header {
+    min-height: 100vh;
+    width: 100%;
+    background: url("./Interesting_facts_about_Europe_0.webp") no-repeat top center / cover;
+    position: relative;
+}
+
+
+#ContentWrapper {
+    float: left;
+    padding-left: 26%;
+    padding-right: 26%;
+    width: 100%;
+
+}
+
+
+#ContentColumn {
+    /* font-family: Verdana, Geneva, sans-serif;
+    font-size: 18px; */
+    /* color: #333; */
+    color: white;
+    line-height: 25px;
+}
+
+#ContentColumn .Liner {
+    padding: 1px 5%;
+}
+
+
+.ImageBlockCenter {
+    margin: 15px 0;
+    text-align: center;
+}
+
+.ImageBlock {
+    overflow: hidden;
+    max-width: 100%;
+}
+
+/* 
+p {
+    margin: 1em 0 1.5em 0;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+} */
+
+
+.facts {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+
+
+.Caption {
+    font-size: 14px;
+    font-weight: bold;
+    font-style: italic;
+    color: white;
+    text-align: center;
+}
+
+.Caption {
+    font-size: 85%;
+    display: block;
+}
+
+.CaptionCenter {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center !important;
+}
+
+
+#scroll {
+    width: 110px;
+    position: relative;
+    animation: mymove 3s infinite;
+    animation-play-state: running;
+}
+
+@keyframes mymove {
+    from {
+        top: 15px;
+    }
+
+    to {
+        top: 90px;
+    }
+}
+
+
+
+
+
+
+
+
+header {
+    min-height: 100vh;
+    width: 100%;
+    background: url("facts.jpg") no-repeat top center / cover;
+    position: relative;
+    color: white;
+}
+
+​ .typewriter-btn {
+    margin: 2%;
+}
+
+​ .typebtn {
+    padding: 2%;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    background-color: #aec6cf;
+    border: none;
+    border-radius: 25px;
+    color: #fff;
+    text-transform: uppercase;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+​ .myfacts {
+    min-height: 500vh;
+    width: 100%;
+    background: url("./facts.jpg") no-repeat top center / cover;
+    position: relative;
+}
+
+​ ​ .next {
+    color: white;
+    text-decoration: none;
+}
+
+​ ​ ​
+
+/* link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"><style>.*/
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: 10%;
+    text-align: center;
+    font-family: arial;
+}
+
+​ .title2 {
+    color: white;
+    font-size: 18px;
+}
+
+​ button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+
+​ a {
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+}
+
+​ button:hover,
+a:hover {
+    opacity: 0.7;
+}
+
+​ .facts-start {
+    text-align: left;
+    background: url("./Interesting_facts_about_Europe_0.webp");
+    background-size: 100% 100%;
+}
+
+.about-content {
+    text-align: center;
+    color: white;
+    background-color: #263238;
+}
+
+.ols li {
+    padding: 30px 150px;
+}
+
+​ h2 {
+    padding: 20px;
+}
+
+​ .des1 {
+    font-size: medium;
+    font-weight: bold;
+}
+
+
+.content {
+    min-height: 400vh;
+    width: 100%;
+    background: url("https://blog.eurail.com/wp-content/uploads/2016/06/matterhorn.jpg") no-repeat top center / cover;
+    position: relative;
+    color: white;
+}
+
+.inner-content {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(42, 51, 59, 0.288);
+    width: 100%;
+
+}
+
+
+
+.highlite {
+    background-image: linear-gradient(#ffd900, #ffd900);
+    background-repeat: no-repeat;
+    background-position: 0% 100%;
+    background-size: 100% 2px;
+}
+
+.highlite:hover {
+    background-size: 100% 100%;
+    background-position: 0% 0%;
+    color: black;
+}
+
+.highlite {
+    transition: background-size .5s, background-position .3s ease-in .5s;
+}
+
+.highlite:hover {
+    transition: background-position .5s, background-size .3s ease-in .5s;
+}

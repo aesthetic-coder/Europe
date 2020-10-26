@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Europe</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="culture.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+
+
+</head>
+
+<body>
+  <button onclick="topFunction()" id="myBtn" title="Go to top">⬆</button>
+  <div class="container">
+    <div class="navbar">
+      <div class="menu">
+        <h3 class="logo">New<span>Realm</span></h3>
+        <div class="hamburger-menu">
+          <div class="bar"></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="main-container">
+      <div class="main">
+        <header>
+          <div class="overlay">
+            <div class="inner">
+              <h2 class="title">About Culture</h2>
+              <br />
+              <p>
+                Scroll Down to See more about culture !!
+                <br />
+                <br />
+              </p>
+              <img id="scroll" src="./arrow down.png" alt="scroll-image" />
+
+            </div>
+          </div>
+        </header>
+      </div>
+
+      <div class="shadow one"></div>
+      <div class="shadow two"></div>
+    </div>
+
+    <div class="links">
+      <ul>
+        <li>
+          <a href="./index.html" style="--i: 0.05s" class="link-a">Home</a>
+        </li>
+        <li>
+          <a href="./europe.html" style="--i: 0.1s" class="link-a">About Europe</a>
+        </li>
+        <li>
+          <a href="./countries.html" style="--i: 0.15s" class="link-a">Coutries and Capitals</a>
+        </li>
+        <li>
+          <a href="./culture.html" style="--i: 0.2s" class="link-a">Culture</a>
+        </li>
+        <li>
+          <a href="./tourism.html" style="--i: 0.25s" class="link-a">Tourism</a>
+        </li>
+        <li>
+          <a href="./facts.html" style="--i: 0.3s" class="link-a">Facts On Europe</a>
+        </li>
+        <li>
+          <a href="about.html" style="--i: 0.35s" class="link-a">About the Developers</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- <h3 class="typesOfArt">Prehistoric art</h3>
+  <p>Surviving European prehistoric art mainly comprises sculpture and rock art. It includes the oldest known  
+    representation of the human body, the Venus of Hohle Fel, dating from 40,000-35,000 BC, found in Schelklingen, 
+    Germany and the Löwenmensch figurine, from about 30,000 BC, the oldest undisputed piece of figurative art. The 
+    Swimming Reindeer of about 11,000 BCE is among the finest Magdalenian carvings in bone or antler of animals in
+    the 
+    art of the Upper Paleolithic. At the beginning of the Mesolithic in Europe figurative sculpture greatly reduced,
+    and 
+    remained a less common element in art than relief decoration of practical objects until the Roman period,
+    despite 
+    some works such as the Gundestrup cauldron from the European Iron Age and the Bronze Age Trundholm sun chariot.
+    The 
+    oldest European cave art dates back 40,800[clarification needed] and can be found in the El Castillo Cave in
+    Spain, 
+    but cave art exists across the continent. Rock painting was also performed on cliff faces, but fewer of those 
+    paintings have survived because of erosion. One well-known example is the rock paintings of Astuvansalmi in the 
+    Saimaa area of Finland.
+  </p> -->
+  <!-- <img src="https://i.pinimg.com/originals/16/a9/50/16a950e6a9a762c5ae725e3847773086.jpg" alt="" height="500px"
+    width="500px">
+  <h3 class="typesOfArt">Classical art</h3>
+  <p>Ancient Greek art stands out among that of other ancient cultures for its development of naturalistic but
+    idealised 
+    depictions of the human body, in which largely nude male figures were generally the focus of innovation. The rate
+    of 
+    stylistic development between about 750 and 300 BC was remarkable by ancient standards, and in surviving works
+    is 
+    best seen in Ancient Greek sculpture. There were important innovations in painting, which have to be essentially 
+    reconstructed due to the lack of original survivals of quality, other than the distinct field of painted
+    pottery. 
+    Black-figure pottery and the subsequent red-figure pottery are famous and influential examples of the Ancient
+    Greek 
+    decorative arts. Roman art was influenced by Greece and can in part be taken as a descendant of ancient Greek 
+    painting and sculpture, but was also strongly influenced by the more local Etruscan art of Italy. Sculpture was 
+    perhaps considered as the highest form of art by Romans, but figure painting was also very highly regarded.
+    Roman 
+    sculpture is primarily portraiture derived from the upper classes of society as well as depictions of the gods. 
+    However, Roman painting does have important unique characteristics. Among surviving Roman paintings are wall 
+    paintings, many from villas in Campania, in Southern Italy, especially at Pompeii and Herculaneum. Such painting
+    can 
+    be grouped into four main "styles" or periods and may contain the first examples of trompe-l'oeil, 
+    pseudo-perspective, and pure landscape. Early Christian art grew out of Roman popular, and later Imperial, art
+    and 
+    adapted its iconography from these sources.</p>
+  <img
+    src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Willem_van_Haecht_%28II%29_-_Apelles_painting_Campaspe_-_2.jpg/1280px-Willem_van_Haecht_%28II%29_-_Apelles_painting_Campaspe_-_2.jpg"
+    height="500px" width="500px" alt=""> -->
+
+
+  <div class="content">
+    <div class="inner-content">
+      <section class="orange">
+        <img id="myImg" src="https://i.pinimg.com/originals/16/a9/50/16a950e6a9a762c5ae725e3847773086.jpg"
+          alt="Prehistoric art" style="width:200%;max-width:300px">
+
+        <!-- The Modal -->
+        <div id="myModal" class="modal">
+          <span class="close">&times;</span>
+          <img class="modal-content" id="img01">
+          <div id="caption"></div>
+        </div>
+
+
+        <div class="text">
+          <h3 class="typesOfArt">Prehistoric art</h3>
+          <p>Surviving European prehistoric art mainly comprises <span class="highlite"> sculpture and rock art.</span>
+            It includes the
+            oldest known
+            representation of the human body, the Venus of Hohle Fel, dating from 40,000-35,000 BC, found in
+            Schelklingen,
+            <span class="highlite">Germany and the Löwenmensch</span> figurine, from about 30,000 BC, the oldest
+            undisputed
+            piece of figurative art.
+            The
+            Swimming Reindeer of about 11,000 BCE is among the finest Magdalenian carvings in bone or antler of animals
+            in
+            the
+            art of the Upper Paleolithic.
+            <br>
+            <br>
+            At the beginning of the Mesolithic in Europe figurative sculpture greatly reduced,
+            and
+            remained a less common element in art than relief decoration of practical objects until the Roman period,
+            despite
+            some works such as the Gundestrup cauldron from the European Iron Age and the Bronze Age Trundholm sun
+            chariot.
+            <br>
+            <br>
+            The
+            oldest European cave art dates back 40,800[clarification needed] and can be found in the <span
+              class="highlite">El Castillo Cave in
+              Spain,</span>
+            but cave art exists across the continent. Rock painting was also performed on cliff faces, but fewer of
+            those
+            paintings have survived because of erosion. One well-known example is the rock paintings of Astuvansalmi in
+            the
+            Saimaa area of Finland.
+          </p>
+        </div>
+      </section>
+
+      <section class="green">
+        <img id="myImg1"
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Willem_van_Haecht_%28II%29_-_Apelles_painting_Campaspe_-_2.jpg/1280px-Willem_van_Haecht_%28II%29_-_Apelles_painting_Campaspe_-_2.jpg"
+          alt="Medieval art" style="width:100%;max-width:300px;height: 200px;">
+
+        <!-- The Modal -->
+        <div id="myModal1" class="modal">
+          <span class="close">&times;</span>
+          <img class="modal-content" id="img02">
+          <div id="caption1"></div>
+        </div>
+        <div class="text">
+          <h3 class="typesOfArt">Medieval art
+          </h3>
+          <p><span class="highlite">Medieval art </span>can be broadly categorised into the Byzantine
+            art of the Eastern Roman Empire, and the Gothic
+            art that emerged in Western Europe over the same period.
+            <br>
+            <br>
+            Byzantine art was strongly influenced by its <span class="highlite">classical heritage,</span> but
+            distinguished itself by the development
+            of a new, <span class="highlite">abstract, aesthetic, marked by anti-naturalism and a favour for
+              symbolism.</span> The subject matter of
+            monumental Byzantine art was primarily religious and imperial: the two themes are often combined, as in
+            the
+            portraits of later <span class="highlite">Byzantine emperors</span> that decorated the interior of the
+            sixth-century church of Hagia
+            Sophia
+            in <span class="highlite">Constantinople.</span>
+            <br>
+            <br>
+            However, the Byzantines inherited the Early Christian distrust of monumental sculpture in
+            religious art, and produced only reliefs, of which very few survivals are anything like life-size, in
+            sharp
+            contrast to the medieval art of the West, where<span class="highlite"> monumental sculpture</span>
+            revived from Carolingian art
+            onwards. Small ivories were also mostly in relief.
+            <br>
+            <br>
+            The so-called <span class="highlite">"minor arts"</span> were very important in <span
+              class="highlite">Byzantine
+              art and luxury items, </span>including ivories carved in relief as formal presentation Consular
+            diptychs or caskets
+            such as the Veroli casket, hardstone carvings, enamels, glass, jewelry, metalwork, and figured silks
+            were
+            produced in large quantities throughout the Byzantine era.</p>
+        </div>
+      </section>
+    </div>
+  </div>
+  <script src="app.js"></script>
+</body>
+
+
+<style>
+  #myImg {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    width: 300px;
+    height: 300px;
+  }
+
+  #myImg1 {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    width: 300px;
+    height: 300px;
+  }
+
+  #myImg:hover {
+    opacity: 0.7;
+  }
+
+  /* The Modal (background) */
+  .modal {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    padding-top: 100px;
+    /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.9);
+    /* Black w/ opacity */
+  }
+
+  /* Modal Content (image) */
+  .modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 500px;
+    height: 500px;
+  }
+
+  /* Caption of Modal Image */
+  #caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+  }
+
+  /* Add Animation */
+  .modal-content,
+  #caption {
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+  }
+
+  @-webkit-keyframes zoom {
+    from {
+      -webkit-transform: scale(0)
+    }
+
+    to {
+      -webkit-transform: scale(1)
+    }
+  }
+
+  @keyframes zoom {
+    from {
+      transform: scale(0)
+    }
+
+    to {
+      transform: scale(1)
+    }
+  }
+
+  /* The Close Button */
+  .close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+  }
+
+  .close:hover,
+  .close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  /* 100% Image Width on Smaller Screens */
+  @media only screen and (max-width: 700px) {
+    .modal-content {
+      width: 100%;
+    }
+  }
+</style>
+
+<script>
+  // Get the modal
+  var modal = document.getElementById("myModal");
+
+  // Get the image and insert it inside the modal - use its "alt" text as a caption
+  var img = document.getElementById("myImg");
+  var modalImg = document.getElementById("img01");
+  var captionText = document.getElementById("caption");
+  img.onclick = function () {
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+  }
+
+  // Get the <span> element that closes the modal
+  var span = document.getElementsByClassName("close")[0];
+
+  // When the user clicks on <span> (x), close the modal
+  span.onclick = function () {
+    modal.style.display = "none";
+  }
+
+
+
+  // Get the modal
+  var modal1 = document.getElementById("myModal1");
+
+  // Get the image and insert it inside the modal - use its "alt" text as a caption
+  var img1 = document.getElementById("myImg1");
+  var modalImg1 = document.getElementById("img02");
+  var captionText1 = document.getElementById("caption");
+  img1.onclick = function () {
+    modal1.style.display = "block";
+    modalImg1.src = this.src;
+    captionText1.innerHTML = this.alt;
+  }
+
+  // Get the <span> element that closes the modal
+  var span1 = document.getElementsByClassName("close")[1];
+
+  // When the user clicks on <span> (x), close the modal
+  span1.onclick = function () {
+    modal1.style.display = "none";
+  }
+</script>
+
+</html>

@@ -1,0 +1,76 @@
+.country {
+    min-height: 100vh;
+    width: 100%;
+    background: url("./map.png") no-repeat top center / cover;
+    position: relative;
+}
+
+.country-list {
+    background: url();
+    /* background-color: rgb(44, 77, 85); */
+    color: white;
+    font-size: medium;
+    justify-content: center;
+    padding: 10px;
+    align-items: center;
+    display: flex;
+
+}
+
+.images {
+    margin: 30px;
+    ;
+}
+
+table,
+th,
+td,
+tr {
+    position: relative;
+    border: 1px solid white;
+    padding: 5px;
+    text-align: center;
+    font-size: 20px;
+    margin: 30px;
+    border-collapse: collapse;
+}
+
+img {
+    width: 400px;
+    margin-bottom: 20px;
+}
+
+#scroll {
+    width: 110px;
+    position: relative;
+    animation: mymove 3s infinite;
+    animation-play-state: running;
+}
+
+@keyframes mymove {
+    from {
+        top: 15px;
+    }
+
+    to {
+        top: 90px;
+    }
+}
+
+.content {
+    min-height: 180vh;
+    width: 100%;
+    background: url("https://drumetipemunte.files.wordpress.com/2015/04/muntii-apuseni-2015.jpg") no-repeat top center / cover;
+    position: relative;
+}
+
+.inner-content {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(42, 51, 59, 0.699);
+    width: 100%;
+
+}

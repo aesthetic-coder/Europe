@@ -1,0 +1,95 @@
+.green {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 20px;
+
+}
+
+.orange {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 20px;
+}
+
+#Myimg {
+    height: 250px;
+    width: 500px;
+    margin: 30px;
+
+}
+
+.text {
+    width: 40%;
+}
+
+.highlite {
+    background-image: linear-gradient(#ffd900, #ffd900);
+    background-repeat: no-repeat;
+    background-position: 0% 100%;
+    background-size: 100% 2px;
+}
+
+.highlite:hover {
+    background-size: 100% 100%;
+    background-position: 0% 0%;
+    color: black;
+}
+
+.highlite {
+    transition: background-size .5s, background-position .3s ease-in .5s;
+}
+
+.highlite:hover {
+    transition: background-position .5s, background-size .3s ease-in .5s;
+}
+
+
+header {
+    min-height: 100vh;
+    width: 100%;
+    background: url("https://i.pinimg.com/originals/2d/fe/54/2dfe545134d3e83f9a8ae992e515bdc9.jpg") no-repeat top center / cover;
+    position: relative;
+}
+
+
+.content {
+    min-height: 220vh;
+    width: 100%;
+    background: url("https://www.thoughtco.com/thmb/vDCtqxlzk2PUYCifiQgI-8-QlR4=/768x0/filters:no_upscale():max_bytes(150000):strip_icc()/name-838ef4c3732b4183bd9bdeec2554c24c.jpg") no-repeat top center / cover;
+    position: relative;
+    color: white;
+}
+
+.inner-content {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(42, 51, 59, 0.699);
+    width: 100%;
+
+}
+
+
+
+#scroll {
+    width: 110px;
+    position: relative;
+    animation: mymove 3s infinite;
+    animation-play-state: running;
+}
+
+@keyframes mymove {
+    from {
+        top: 15px;
+    }
+
+    to {
+        top: 90px;
+    }
+}

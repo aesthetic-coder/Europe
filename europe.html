@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Europe</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="europe.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+  <script src="./europe.js"></script>
+
+</head>
+
+<body>
+  <div class="container">
+    <div class="navbar">
+      <div class="menu">
+        <h3 class="logo">New<span>Realm</span></h3>
+        <div class="hamburger-menu">
+          <div class="bar"></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="main-container">
+      <div class="main">
+        <header>
+          <div class="overlay">
+            <div class="inner">
+              <h2 class="title">About Europe</h2>
+              <br />
+              <p>
+                Scroll Down to See more about Europe !!
+                <br />
+                <br />
+              </p>
+              <img id="scroll" src="./arrow down.png" alt="scroll-image" />
+            </div>
+          </div>
+        </header>
+      </div>
+
+      <div class="shadow one"></div>
+      <div class="shadow two"></div>
+    </div>
+
+    <div class="links">
+      <ul>
+        <li>
+          <a href="./index.html" style="--i: 0.05s" class="link-a">Home</a>
+        </li>
+        <li>
+          <a href="./europe.html" style="--i: 0.1s" class="link-a">About Europe</a>
+        </li>
+        <li>
+          <a href="./countries.html" style="--i: 0.15s" class="link-a">Coutries and Capitals</a>
+        </li>
+        <li>
+          <a href="./culture.html" style="--i: 0.2s" class="link-a">Culture</a>
+        </li>
+        <li>
+          <a href="./tourism.html" style="--i: 0.25s" class="link-a">Tourism</a>
+        </li>
+        <li>
+          <a href="./facts.html" style="--i: 0.3s" class="link-a">Facts On Europe</a>
+        </li>
+        <li>
+          <a href="about.html" style="--i: 0.35s" class="link-a">About the Developers</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="content">
+    <div class="inner-content">
+      <div class="content-all">
+        <div class="basic">
+          <h3>Basic Info About Europe !!</h3>
+          <ul>
+            <li><b>Population:</b> About<span class="highlite"> 740 million.</span> That’s sounds a lot but there are
+              five times that number of people
+              living
+              today in Asia!</li>
+            <br>
+            <li><b>Land Area:</b> <span class="highlite">9,908,600 square kilometres (or 3,825,730 square miles)</span>
+              – it’s about a third of the
+              size
+              of Africa. </li>
+            <br>
+            <li><b>Countries:</b> <span class="highlite">46 countries</span> (of which 27 are members of the European
+              Union or EU).</li><br>
+
+            <li><b>Highest Peak:</b><span class="highlite">Mount Elbrus</span> in Russia stands at 5,643 metres above
+              sea level.</li><br>
+
+            <li><b>Largest Lake:</b> <span class="highlite">Lake Ladoga</span> in north western Russia has an area of
+              17,700 square kilometres (6,800
+              square miles).</li><br>
+
+            <li><b>Longest River:</b> <span class="highlite">The Volga River</span> in Russia is 3,530 kilometres (2,193
+              miles) long.</li><br>
+
+            <li><b>Smallest Country (by land area and population):</b> <span class="highlite">Vatican City</span> is a
+              tiny country within the Italian
+              city of Rome. The Pope, the leader of the worldwide Catholic Church, lives here along with its 800 other
+              citizens.<br>
+
+            </li>
+            <li><b>Biggest Country (by land area):</b> <span class="highlite">The Russian Federation</span> is the
+              biggest country by land area, not
+              just in Europe but across the whole world!</li><br>
+
+            <li><b>Languages:</b> There are more than <span class="highlite">200 different languages</span> spoken in
+              Europe. The EU recognises 23
+              languages that are in common use amongst its member countries, where two of every three Europeans live.
+            </li>
+            <br>
+          </ul>
+        </div>
+        <div class="e-map">
+          <!-- <h1>Take a Look at the Europe Map here </h1> -->
+          <div class="img-magnifier-container">
+            <img id="myimage" src="https://i.pinimg.com/originals/5a/71/dd/5a71dd69cdba178740d7f600214f337b.jpg"
+              width="800" height="600" style="text-align: center;">
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="app.js"></script>
+</body>
+
+
+<style>
+  .img-magnifier-container {
+    position: relative;
+  }
+
+  .img-magnifier-glass {
+    position: absolute;
+    border: 3px solid #000;
+    border-radius: 50%;
+    cursor: none;
+    /*Set the size of the magnifier glass:*/
+    width: 150px;
+    height: 150px;
+  }
+</style>
+
+<script>
+  /* Initiate Magnify Function
+  with the id of the image, and the strength of the magnifier glass:*/
+  magnify("myimage", 2);
+</script>
+
+</html>
